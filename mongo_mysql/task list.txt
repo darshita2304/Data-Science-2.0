@@ -1,0 +1,37 @@
+pwd , getcwd(), 
+
+Output exceeds the size limit. Open the full output data in a text editor
+--- Logging error ---
+Traceback (most recent call last):
+
+
+q1 : create your own class to perform list search opearations
+q2: create a class for dict new element addition
+q3: create a class for tuple data extraction operation
+q4: create a class to implement all insert, update,delete for mysql
+
+q5: create a calss to implement isnert, update and delete in mongodb
+
+q6: create a calss to perform append and delete operation in file and inherit it in child class
+
+q7: create a class to import data into file from mongodb
+
+q8: create a class to a calculator functionalities add, sub,mul,div, log, exponenet, power
+
+q9: create a calss method to find a time and space complexity of any function - 
+
+q10: create a class to do a bulk upload a file in mysql - csv or text file
+
+q11: give 10 different example of polymorphism, encaptulation, data abstraction, overloading, overriding, multiple inheritance
+
+q12: try to explore a meaning of  "->" 
+
+
+send it to sudhanshu@ineuron.ai 
+Sudhanshu@ineuron.ai
+Contact@ineuron.ai
+
+
+https://blog.devgenius.io/python-time-complexities-1988ec5d16d9
+
+
