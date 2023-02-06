@@ -5,11 +5,6 @@
 import logging
 logging.basicConfig(filename='file_calss.log', level=logging.DEBUG, filemode='w', format="""%(asctime)s %(levelname)s %(message)s""")
 
-
-import logging
-
-logging.basicConfig(filename='file_calss.log', level=logging.DEBUG, filemode='w', format="""%(asctime)s %(levelname)s %(message)""")
-
 class q6_filefn:
     def __init__(self, filename):
         self.filename = filename

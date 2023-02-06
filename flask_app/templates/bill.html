@@ -1,0 +1,62 @@
+<!-- <html>
+    <body>
+        <form action="/calculate_bill" method="POST">
+            <label for="Item1">Item1:</label><br>
+            <input type="text" id="Item1" name="Item1"><br>
+            
+            <label for="Item2">Item2:</label><br>
+            <input type="text" id="Item2" name="Item2"><br><br>
+
+            <input type="submit" value="Calculate Bill">
+          </form> 
+   
+    </body>
+</html> -->
+
+<html>
+    <head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    </head>
+    <body>
+
+        <form action="/calculate_bill" method="POST">
+            <button type="button">Add more !</button>
+            <table id="customers">
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+                <tr>
+                    <td><input type="text" name="product" value="product.."></input></td>
+                    <td><input type="number" name="quantity" value="quanty.."></input></td>
+                    <td><input type="number" name="price" value="price.."></input></td>
+                </tr>
+
+            </table>
+
+            <input type="submit" value="Calculate Bill">
+        </form>
+
+        <b> *** you will get 10% below 1000 bill***<br>
+            *** you will get 20% below 2000 bill***</br>
+            *** you will get 30% above 2000 bill ***</b>
+
+        <script>
+
+            $(document).ready(function(){
+
+            $("button").on("click", function(){
+
+                var row = '<tr><td><input type="text" name="product" value="product.."></input></td><td><input type="number" name="quantity" value="quanty.."></input></td><td><input type="number" name="price" value="price.."></input></td></tr>';
+
+                $("#customers").append(row);
+
+            });
+
+            });
+
+        </script>
+
+    </body>
+    </html>
