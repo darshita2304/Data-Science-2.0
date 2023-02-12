@@ -1,0 +1,10 @@
+conda create -n image_Scrap 
+python==3.6
+-> it will create virtual environment for this project
+
+
+conda activate image_Scrap
+-> activate environmat
+
+pip install -r reuirements.txt
+-- to install all reuired lib
