@@ -1,0 +1,13 @@
+git init
+git add .
+git commit -m 'first commit'
+git branch -M main
+
+git config --global user.name "darshita2304"
+git config --global user.email "emailaddress"
+
+git remote add origin https://....git path
+git push -u origin machine
+
+# to clone somethin
+git clone http://......git path
