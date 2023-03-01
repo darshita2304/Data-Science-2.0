@@ -1,0 +1,74 @@
+-> Statistics is the science of collecting, organizing and analyzing data
+
+-> data is a fact or pieces of informations
+for example- heights of students
+
+-> Statistics is devided into 2 Stats
+1) descriptive stats - it consists organizing and summarizing data ->
+        measure of central tendency(mean, median, mode)
+        measure of despersion (variance, standard, derivation)
+        different types of distribution of data(histogram, pdf, pmf, cdf)
+2) infuntial stats - it consists of data measure to conclusion
+        with hypothesis testing
+        z test
+        t -test
+        chi square test
+        anova
+        f test
+
+        to conclusion of sample on population        
+
+
+
+typesod data- 1) quantitative - discric n continuous 
+            2) qualitative - ordinal n nomminal
+
+    scales of measuremens
+1) nomminal scale data
+2) ordinal scale data
+3) ratio scale data
+4) interval scale data
+
+
+
+** to visulize outliers we use viscat and box plot
+
+q1 = (25/100) n +1
+q2 = (50/100)n +1
+q3 = (75/100)n+1
+
+iqr = q3-q1 = 
+Upper fence = Q3 + (1.5 * IQR) Lower fence = Q1 — (1.5 * IQR)
+
+**** covariance and correlations
+
+spearman rank corerelations - capture liner relations
+
+
+***probability distribution function
+
+1) prabability mass function - for discreate random variable
+        cdf - cummulative distribution fucntion
+2) probability density function - for continuous random variable
+        pdf is coming from the gradiet of the cdf
+
+types of distribution
+
+1) normal/gaussian distribution -   pdf
+        mean=mode=median -> bell curv
+        symmetrical curv
+        empirical rule
+        68% data fall in 1st standard deviation
+
+2) standard normal distribution - pdf
+        zscore - find how many away standard deviation from the mean
+        
+3) log normal distribution - pdf
+4) power law distribution - pdf
+5) bournoulli distribution - pmf
+6) binomial distribution - pmf
+7) poisopm distribution - pmf
+8) uniform distribution - discreate n continuous - pdf and pmf
+9) exponential distribution - pdf
+10) vhi square distribution - pdf
+11)  F distribution
