@@ -6,7 +6,7 @@ for example- heights of students
 -> Statistics is devided into 2 Stats
 1) descriptive stats - it consists organizing and summarizing data ->
         measure of central tendency(mean, median, mode)
-        measure of despersion (variance, standard, derivation)
+        measure of despersion (variance, standard, deviation)
         different types of distribution of data(histogram, pdf, pmf, cdf)
 2) infuntial stats - it consists of data measure to conclusion
         with hypothesis testing
@@ -20,7 +20,7 @@ for example- heights of students
 
 
 
-typesod data- 1) quantitative - discric n continuous 
+typesod data- 1) quantitative - discrete n continuous 
             2) qualitative - ordinal n nomminal
 
     scales of measuremens
