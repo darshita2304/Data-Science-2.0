@@ -72,3 +72,21 @@ types of distribution
 9) exponential distribution - pdf
 10) vhi square distribution - pdf
 11)  F distribution
+
+
+core ml pipeline
+1) data ingetion -reading csv, json, tsv, scrapping
+2) EDA
+3) preprocessing (FE)
+4) model (ML Algorithm)
+5) evaluation
+
+pipeline is a collection of components
+each pipeline had config and artifacts for all pipelines..
+
+machine learning devlopment
+1) CI - continuous integration means local code to serve-github
+2) CD = continuous deployment mean github to cluod
+
+Module packaging - creating library/package and upload somewhere(example pypi, conda)
+docker - 
