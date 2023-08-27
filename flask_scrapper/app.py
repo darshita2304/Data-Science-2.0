@@ -41,7 +41,7 @@ def index():
             # fw = open(filename, "w")
             # headers = "Product, Customer Name, Rating, Heading, Comment \n"
             csv_columns = ["Product", "Customer Name",
-                           "Rating", "Heading", "Comment"]
+                           "Rating", "CommentHead", "Comment"]
 
             # fw.write(headers)
             reviews = []
@@ -79,6 +79,7 @@ def index():
                 mydict = {"Product": searchString, "Name": name, "Rating": rating, "CommentHead": commentHead,
                           "Comment": custComment}
 
+                logging.info(mydict)
                 # fw.write(mydict)
                 # for key in mydict.keys():
                 #     fw.write("%s,%s\n"%(key,mydict[key]))
