@@ -1,0 +1,21 @@
+1. Clone 'https://github.com/ZQPei/deep_sort_pytorch.git'
+2. Market-1501 Dataset 'http://zheng-lab.cecs.anu.edu.au/Project/project_reid.html'
+3. Download dataset from 'https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view?usp=sharing&resourcekey=0-8nyl7K9_x37HlQm34MmrYQ'
+4. %cd deep_sort_pytorch/
+5. !pip install -r requirements.txt
+6. %cd /content/deep_sort_pytorch/deep_sort/deep
+7. Make data folder inside the 'deep' directory
+	-data
+	 -train
+	  -1
+	   - .jpg
+	   - .jpg
+	 -test
+	  -1
+	   - .jpg
+	   - .jpg
+8. Open 'train.py' inside 'deep_sort_pytorch/deep_sort/deep/'
+9. (Optional) to change the --data-dir argument.
+10. In Line 144 of 'train.py' replace 'ckpt.t7' with any name or 'torch.save(checkpoint, './checkpoint/new_ckpt.t7')'
+11. Run `python train.py`
+12. New Checkpoints saved in '/checkpoint' directory.
